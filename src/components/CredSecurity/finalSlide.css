@@ -1,0 +1,18 @@
+.cred-security {
+  background-color: var(--bg-purple);
+  background-image: url(https://images.unsplash.com/photo-1570475754561-4effe71c5084?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+}
+
+@media all and (max-width: 1279px) {
+  .cred-security {
+    background-position: center bottom;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .cred-security {
+    background-image: url(https://images.unsplash.com/photo-1570475754561-4effe71c5084?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+
+    background-position: right center;
+  }
+}

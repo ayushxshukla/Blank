@@ -1,0 +1,21 @@
+.window-peak {
+  background-image: url("../../common/images/Underlay.png");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+@media all and (max-width: 1279px) {
+  .window-peak{
+    min-height: 0px;
+    
+  }
+  
+}
+
+@media all and (max-width: 767px) {
+
+}
